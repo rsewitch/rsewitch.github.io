@@ -30,7 +30,7 @@ header h1 {
 
 header nav {
     float: left;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 header a {
@@ -45,7 +45,7 @@ header a:hover {
     color: #ffffff;
 }
 header a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 header a:focus {}
 

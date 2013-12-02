@@ -4,20 +4,25 @@
     padding: 0;
 }
 
+nav
+a:link {background-color:#000000;}    /* unvisited link */
+
+
+a:visited {background-color:#000000;} /* visited link */
+a:hover {background-color:#000000;}   /* mouse over link */
+a:active {background-color:#000000;}  /* selected link */
+
+  }
 body {
     font-family: georgia, serif;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 26px;
     padding: 10px;
+    padding-right: 20px;
 }
 
-p {
-    margin-top: 20px;
-    margin-bottom: 16px;
-    line-height:22px;
-    margin-left: 24px;
 
-}
+
 
 aside {
     width:32%;
@@ -33,13 +38,14 @@ img {
 
 
 }
-header {
-    background-color:#C71585;
+h1{
+    background-color:#000000;
     color: #ffffff;
     height: 80px;
     font-size:34px;
     margin-top:10px;
     padding-top: 28px;
+    
 }
 
 nav a {
@@ -51,6 +57,9 @@ border:1px white;
 text-decoration: none;
 
 }
+
+
+
 
 
 
@@ -67,14 +76,15 @@ article {
     padding: 0 20px 0 10px;
 }
 
-article h1 {
-    font-size: 38px;
+h1 {
+    font-size: 50px;
     line-height: 44px;
-    margin-top: 4px;
+    margin-top: 12px:;
+    
 }
 
-article h2 {
-    font-size: 24px;
+ h2 {
+    font-size: 18px;
     line-height: 28px;
     margin-bottom: 4px;
 }
@@ -90,6 +100,7 @@ footer {
     
     nav {
         width:90%;
+        font-size: 18px;
 
     }
 
@@ -106,4 +117,3 @@ h1,h2 {
     text-align: center;
 }
 
-}

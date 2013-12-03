@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
 }
 
 a:link {background-color:#000000;}    /* unvisited link */
@@ -88,6 +88,10 @@ footer {
     padding: 0 10px 0 10px;
     
 }
+footer a, a[rel="external"] { 
+    background-color: transparent !important;
+}
+
 
 @media screen and (max-width: 320px) {
     
@@ -150,6 +154,6 @@ body.musicPage {
     margin-top: 20px;
 }
 
-.musicPage ul {
+.musicPage ul, .musicPage p {
     background-color: #000;
 }

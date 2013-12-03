@@ -4,15 +4,11 @@
     padding: 2px;
 }
 
-nav
 a:link {background-color:#000000;}    /* unvisited link */
-
-
 a:visited {background-color:#000000;} /* visited link */
 a:hover {background-color:#000000;}   /* mouse over link */
 a:active {background-color:#000000;}  /* selected link */
 
-  }
 body {
     font-family: georgia, serif;
     font-size: 20px;
@@ -22,14 +18,14 @@ body {
 
 }
 
-p
-{font-size:20px
-
+p {
+    font-size:20px;
 }
 
-nav{margin-top:8px;
-
+nav {
+    margin-top: 8px;
 }
+
 aside {
     width:32%;
     background-color:#ffffff;
@@ -41,8 +37,6 @@ aside {
 img {
 
     border: 20px groove black;
-
-
 }
 h1{
     background-color:#000000;
@@ -59,15 +53,8 @@ font-size:22px;
 background: #ffffff;
 color:#C71585;
 margin-right:102px;
-border:1px white;
 text-decoration: none;
-
 }
-
-
-
-
-
 
 header a {
     color: #aaaaaa;
@@ -107,19 +94,62 @@ footer {
     nav {
         width:90%;
         font-size: 18px;
-
     }
 
-body {
-    padding: 5%;
+    body {
+        padding: 5%;
+    }
+
+    p {
+        padding: 5%;
+        font-size: 18px;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+
 }
 
-p{ padding: 5%
+
+/* musicPage style overrides */
+
+body.musicPage {
+    background-image:url("../imgs/UMFJOHNDIGWEED.jpg");
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    line-height:26px;
+}
+
+.musicPage h1 {
+    font-size: 30px;
+    color:#ffffff;
+    background:#000000;
+}
+    
+.musicPage a:link {background-color:#000000;}    /* unvisited link */
+.musicPage a:visited {background-color:#000000;} /* visited link */
+.musicPage a:hover {background-color:#000000;}   /* mouse over link */
+.musicPage a:active {background-color:#000000;}  /* selected link */
+
+.musicPage h2 {
+    font-size: 30px;
+    line-height:36px;
+    margin-top: 30px;
+}
+
+.musicPage h3 {
+    font-size: 24px;
+    line-height:32px;
+    margin-top: 30px;
+}
+
+.musicPage nav {
     font-size:18px;
-    font-weight: 
-
-}
-h1,h2 {
-    text-align: center;
+    background-color: #000000;
+    margin-top: 20px;
 }
 
+.musicPage ul {
+    background-color: #000;
+}

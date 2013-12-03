@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
 }
 
 nav
@@ -16,14 +16,20 @@ a:active {background-color:#000000;}  /* selected link */
 body {
     font-family: georgia, serif;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 28px;
     padding: 10px;
     padding-right: 20px;
+
 }
 
+p
+{font-size:20px
 
+}
 
+nav{margin-top:8px;
 
+}
 aside {
     width:32%;
     background-color:#ffffff;
